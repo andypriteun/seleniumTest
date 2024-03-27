@@ -28,7 +28,7 @@ async function example() {
     await driver.wait(until.elementLocated(By.id("rpass")), 5000);
     await driver.findElement(By.id("rpass")).sendKeys("Test1234!");
 
-    // Wait for the login button to appear and click it
+    // Wait for the login button to appear and click it 
     await driver.wait(until.elementLocated(By.id("login-btn")), 5000);
     await driver.findElement(By.id("login-btn")).click();
 
